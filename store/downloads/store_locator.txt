@@ -1,0 +1,330 @@
+00-5806009	Whole Foods Market - Mountainbrook	3100 Cahaba Village Plaza			Birmingham	AL	35243	(205) 912-8400
+00-2100589	Enchantments Home & Baby	4955 S. Alma School Road			Chandler	AZ	85248	(480) 686-8867
+00-2100895	Gump's	135 Post St			San Francisco	CA	94108	(800) 766-7628
+00-2100554	Spreckels Sweets and Treats	1500 Orange Avenue			Coronado	CA	92118	(800) 468-3533
+00-2100937	In Good Taste	1146 Orange Ave			Coronado	CA	92118	(619) 435-8356
+00-2101800	La Rue Du Chocolat	448 South Coast Hwy	Suite B		Laguna Beach	CA	92651	(949) 494-2372
+00-2100921	Madonna Inn	100 Madonna Rd			San Luis Obispo	CA	93405	(805) 543-3000
+00-5408001	Mollie Stone's San Francisco - Twin Peaks	635 Portola Drive			San Francisco	CA	94127	(415) 664-1609
+00-2100190	Mollie Stone's Sausalito	100 Harbor Drive			Sausalito	CA	94965	(415) 331-6900
+00-5408003	Mollie Stone's San Francisco - Pacific Heights	2435 California Street			San Francisco	CA	94115	(415) 567-4902
+00-5408004	Mollie Stone's - Greenbrae	270 Bon Air Shopping Center			Greenbrae	CA	94904	(415) 461-1164
+00-2100194	Mollie Stone's - San Bruno	22 Bayhill Shopping Center			San Bruno	CA	94066	(650) 873-8075
+00-5408006	Mollie Stone's - Burlingame	1477 Chapin Avenue			Burlingame	CA	94010	(650) 558-9992
+00-2100866	Purple Onion Inc.	26 East Main Street			Los Gatos	CA	95030	(408) 354-4125
+00-2102243	Sweet Things	1 Blackfield Drive			Tiburon	CA	94920	(415) 388-8583
+00-3200024	Tifa Chocolate & Gelato	5013 Kanan Rd			Agoura Hills	CA	91301	(818) 879-0685
+00-2100535	Zucchini & Vine	204 Main Street			Chico	CA	95928	(530) 345-3551
+00-5401004	Andronico's Berkeley (Solano Ave.)	1850 Solano Avenue			Berkeley	CA	94707	(510) 524-1673
+00-5401005	Andronicos Berkeley (Telegraph Ave.)	2655 Telegraph Ave			Berkeley	CA	94704	(510) 845-1062
+00-5401001	Andronico's San Francisco	1200 Irving Street			San Francisco	CA	94122	(415) 661-3220
+00-5401006	Andronico's Berkeley (University Ave.)	1414 University Ave			Berkeley	CA	94702	(510) 548-7061
+00-5401002	Andronico's  Berkeley (Shattuck Ave.)	1550 Shattuck Avenue			Berkeley	CA	94709	(510) 841-7942
+00-5401008	Andronico's Los Altos	690 Los Altos Rancho Center			Los Altos	CA	94024	(650) 948-6648
+00-5401003	Andronico's Palo Alto	500 Stanford Shopping Center			Palo Alto	CA	94304	(650) 327-5505
+00-2100461	Benicia Bay Company	714 First Street			Benicia	CA	94510	(707) 745-8232
+00-5502003	Bristol Farms – Beverly & Doheny	9039 Beverly Blvd 			West Hollywood	CA	90048	(310) 248-2804
+00-5502011	Bristol Farms - Hollywood	7880 W Sunset Blvd 			Los Angeles	CA	90046	(323) 874-6301
+00-5502012	Bristol Farms - La Jolla	8510 Genesee Ave 			San Diego	CA	92122	(858) 558-4180
+00-5502004	Bristol Farms - Long Beach	2080 N Bellflower Blvd 			Long Beach 	CA	90815	(562) 430-4134
+00-5502005	Bristol Farms – Manhattan Beach	1570 Rosecrans Ave 			Manhattan Beach	CA	90266	(310) 643-5229
+00-5502014	Bristol Farms - Newport Beach	810 Avocado Ave 			Newport Beach	CA	92660	(949) 760-6514
+00-5502001	Bristol Farms - Palm Desert	73101 Country Club Dr			Palm Desert	CA	92260	(760) 674-0169
+00-5502015	Bristol Farms - Redondo Beach	1700-A S Pacific Coast Hwy 			Redondo Beach	CA	90277	(310) 303-3922
+00-5502006	Bristol Farms - Rolling Hills	837 Silver Spur Rd 			Rolling Hills Estates 	CA	90274	(310) 541-9157 
+00-5502002	Bristol Farms – San Francisco	845 Market St - Suite 010			San Francisco	CA	94103	(415) 979-0106
+00-5502007	Bristol Farms - South Pasadena	606 Fair Oaks Ave 			South Pasadena	CA	91030	(626) 441-5450 
+00-5502009	Bristol Farms - Westchester	8448 Lincoln Blvd 			Westchester	CA	90045	(310) 410-0593 
+00-5502008	Bristol Farms - Westwood	1515 Westwood Blvd 			Las Angeles	CA	90024	(310) 481-0100 
+00-2100597	Cafe Chocolat of Palm Springs	515 North Palm Canyon Dr.			Palm Springs	CA	92262	(760) 320-8889
+00-2111034	Chocolate Maya	15 West Gutierrez			Santa Barbara	CA	93101	(805) 965-5956
+00-2100129	Diablo Foods	3615 MT. Diablo Blvd.			Lafayette	CA	94549	(925) 283-0737
+00-5409002	Draeger's Los Altos	342 First Street			Los Altos	CA	94022	(650) 948-4425
+00-5409001	Draeger's San Mateo	222 E. Fourth Ave			San Mateo	CA	94401	(650) 685-3700
+00-5412001	Sigona's Farmers Market	2345 Middlefield Road			Redwood City	CA	94063	(650) 368-6993
+00-5412002	Sigonas Farmers Market	180 El Camino Road			Palo Alto	CA	94304	(650) 329-1340
+00-5515004	Pharmaca Blithedale 	230 East Blithedale			Mill Valley	CA	94941	(415) 388-7822
+00-5515005	Pharmaca Solana	1744 Solano Ave			Berkeley	CA	94707	(510) 527-8929
+00-5515007	Pharmaca Cole	925 Cole Street			San Francisco	CA	94117	(415) 661-1216
+00-5515009	Pharmaca Sonoma	303 West Napa St			Sonoma	CA	95476	(707) 938-1147
+00-5515010	Pharmaca Sunset 	15150 W. Sunset Blvd			Pacific Palisades	CA	90272	(310) 454-1345
+00-5515012	Pharmaca Redwood	7514 Redwood Blvd. Ste 104			Novato	CA	94945	(415) 892-3700
+00-5515017	Pharmaca Los Gatos 	54 N. Santa Cruz Ave			Los Gatos	CA	95030	(408) 395-1231
+00-5515018	Pharmaca LaJolla	7650 Girard Ave			La Jolla	CA	92037	(858) 454-1337
+00-5515019	Pharmaca Napa 	4020 Bel Aire Plaza			Napa	CA	94558	(707) 253-0970
+00-5515020	Pharmaca Rockridge	5729 College Ave			Oakland	CA	94618	(510) 740-1468
+00-5515021	Pharmaca Monterey 	570 Munras Ave, Suite 10			Monterey	CA	93940	(831) 333-0751
+00-5515022	Pharmaca San Vicente 	12025 San Vicente Blvd			Los Angeles	CA	90049	(310) 476-1237
+00-5515024	Pharmaca Costa Verde 	8650 Genesee Ave, Suite 100			San Diego	CA	92122	(858) 362-5359
+00-2100850	Longmont Florist	614 Coffman			Longmont	CO	80501	(800) 932-4876
+00-5515001	Pharmaca Broadway	2700 Broadway			Boulder	CO	80304	(303) 442-0589
+00-5515002	Pharmaca Pearl 	1647 Pearl Street			Boulder	CO	80302	(303) 442-5164
+00-5515014	Pharmaca Table Mesa 	645 S. Broadway			Boulder	CO	80305	(303) 867-3400
+00-2100034	Given Fine Chocolates	696 Boston Post Road			Madison	CT	06443	203-245-4646
+00-5706012	Whole Foods Market - Westport	399 Post Road West			Westport	CT	06880	(203) 227-6858
+00-3102258	Thames River Greenery	70 State Street			New London	CT	06320	(860) 443-6817
+00-2100759	Joanie's Gourmet Market	102 W 8th Ave			Havana	FL	32333	(850)539-8424
+00-2100212	Perricone's Marketplace	15 SE 10th Street			Miami	FL	33131	(305) 374-9449
+00-5806024	Whole Foods Market - Boca Raton	1400 Glades Rd	Ste 110		Boca Raton	FL	33431	(561) 447-0000
+00-5806025	Whole Foods Market - Coral Gables	67071 Red Road			Coral Gables	FL	33143	(305) 421-9421
+00-5806017	Whole Foods Market - Sarasota	1451 1st Street			Sarasota	FL	34236	(941) 955-8500
+00-5806008	Whole Foods Market - Miami (South Beach)	1020 Alton Road			Miami Beach	FL	33139	(350) 532-1707
+00-2100739	D'Vines Wine & Gift Shop	701 JC Center Ct.	#2		Port Charlotte	FL	33954	(941) 627-9463
+00-2100521	Faith, Hope and Chocolate	2044 14th Ave.			Vero Beach	FL	32960	(772) 567-1414
+00-5806002	Whole Foods Market - Briarcliff	2111 Briarcliff Road			Atlanta	GA	30329	(404) 634-7800
+00-5806004	Whole Foods Market - Cobb	70 Powers Ferry Road			Marietta	GA	30067	(770) 578-4400
+00-5806006	Whole Foods Market - Duluth	5945 State Bridge Road			Duluth	GA	30097	(678) 514-2400?
+00-5806013	Whole Foods Market - Ponce DeLeon	650 Ponce De Leon			Atlanta	GA	30308	(404) 853-1681
+00-5806016	Whole Foods Market - Sandy Springs	5930 Roswell Road			Atlanta	GA	30328	(404) 236-0810
+00-5806019	Whole Foods Market - West Paces Ferry	77 West Paces Ferry NW			Atlanta	GA	30305	(404) 324-4100
+00-2100692	Wright Square Cafe	21 W. York Street			Savannah	GA	31401	(912) 238-1150
+00-2100858	Hualalai Resort	72-100 Kaupelehu Dr			Kailua Kona	HI	96740	(808) 325-8400
+00-2100407	Sweet Memories	1 Aloha Tower Drive			Honolulu	HI	96813	(808) 523-1177
+00-5413001	Atkinson's Market - Bellevue	757 N Main Street			Bellevue	ID	83313	(208) 788-7788 
+00-5413002	Atkinson's Market - Hailey	93 East Croy St			Hailey	ID	83333	(208) 788-2294
+00-5413003	Atkinson's Market – Ketchum	451 4th Street			Ketchum	ID	83340	(208) 726-5668 
+00-2100426	Boise Co-Op	888 W. Fort Street			Boise	ID	83705	(208) 472-4500
+00-2101572	Fox & Obel Food Market	401 E Illinois St			Chicago	IL	60611	(312) 410-7301
+00-0210080	Love Always Cafe	745 Elm St			Winnetka	IL	60093	(847) 784-9010
+00-2100060	Virtu	2034 N. Damen Avenue			Chicago	IL	60647	(773) 235-3790
+00-2100782	Convito Cafe and Market	1515 Sheridan Rd	Plaza del Lago		Wilmette	IL	60091	(847) 251-3654
+00-2100754	Simply Sweet Shoppe	30 N. Rangeline Road			Carmel	IN	46032	(317) 878-9866
+00-2100725	Pemberton Farms	2225 Massachusetts Avenue			Cambridge	MA	02140	(617) 491-2244
+00-2100369	Beacon Hill Chocolates	91 Charles Street			Boston	MA	02114	(617) 725-1900
+00-2101789	LeRoux Kitchen	161 Commercial St			Portland	ME	04101	(207) 553-7665
+00-5811001	NOFO @ The Forum	1125 Military Cutoff Road			Wilmington	NC	28405	(910) 256-0467
+00-5811002	NOFO @ The Pig	2014 Fairview Road			Raleigh	NC	27608	(919) 821-1240
+00-2100710	Reids Fine Foods	225-B E. 6th Street			Charlotte	NC	28202	(704) 377-1312
+00-2100823	Sweetie's	114-C Reynolda Village			Winston Salem	NC	27106	(336) 723-4264
+00-5806003	Whole Foods Market - Chapel Hill	81 South Elliott			Chapel Hill	NC	27514	(919) 968-1983
+00-5806015	Whole Foods Market - Raleigh	3540 Wade Ave			Raleigh	NC	27607	(919) 828-1589
+00-5806020	Whole Foods Market - Winston Salem	41 Miller Stree			Winston Salem	NC	27104	(336) 722-9233
+00-2100443	Fresh Market- Wilmington	1060 International Drive			Wilmington	NC	28405	(910) 256-3524
+00-2100066	Savory Thymes	244-D Shadowline Drive			Boone	NC	28607	(828) 263-8181
+00-2100353	A Southern Season	University Mall	201 South Estes Drive		Chapel Hill	NC	27514	(919) 929-7133
+00-2100367	Sweet Nothings	26 Breechwood Road			Summit	NJ	07901	(908) 522-0888
+00-2100883	Truffles Chocolate & Confections	157 B Spring Street			Newton	NJ	07860	(973) 383-3344
+00-5706005	Whole Foods Market - Madison	222 Main Street			Madison	NJ	07940	(973) 822-8444
+00-5706007	Whole Foods Market - Millburn	2245 Springfield Ave			Vauxhall	NJ	07088	(973) 375-4668
+00-5706009	Whole Foods Market - Ridgewood	44 Goodwin Ave			Ridgewood	NJ	07450	(201) 670-8383
+00-5706014	Whole Foods Market - West Orange	235 Prospect Ave			West Orange	NJ	07052	(973) 669-3196
+00-3200042	Cafe Pierrot	19 Sparta Ave			Sparta	NJ	07871	(973) 729-0988
+00-2102319	Todos Santos Chocolates and Confections	125 E. Palace	#31		Santa Fe	NM	87501	(505) 982-3855
+00-5515011	Pharmaca Cordova 	530 W. Cordova Suite B			Santa Fe	NM	87505	(505) 820-7690
+00-5515013	Pharmaca Holly 	8910 Holly Avenue NE			Albuquerque	NM	87122	(505) 796-0387
+00-5816004	Dylans Candy Bar - 3rd Ave	1011 3rd Ave			New York	NY	10021	(646) 735-0078
+00-2100573	Moonlight Creamery	36 West Ave			Fairport	NY	14450	(585) 223-0880
+00-2103201	No 6 Park Row	6 West Park Row			Clinton	NY	13323	(315) 853-2980
+00-2100582	Parkleigh	215 Park Ave			Rochester	NY	14607	(585) 244-4842
+00-2100756	Pearl Grant Richmans	1475 Western Ave.	#16., Stuyvesant Plaza		Albany	NY	12203	(518) 438-8409
+00-2100775	Dolce Delight	1080 Dangy Road			Ithaca	NY	14850	(607) 256-1111
+00-2100335	Adams Fairarcre Farm – Poughkeepsie	765 Dutchess Turnpike 			Poughkeepsie	NY	12603	(845) 454-4330 
+00-2100457	Loveland Sweets	124 W. Loveland Avenue			Loveland	OH	45140	(513) 583-8305
+00-2101282	The Chocolate Shoppe	26597 N Dixie Hwy	Suite 155		Perrysburg	OH	43551	(419) 872-3675
+00-2101654	Gifford's Flowers	1224 SW Broadway			Portland	OR	97201	(503) 222-9193
+00-5203003	Haggen Tualatin	8515 SW Tualatin Sherwood Road			Tualatin	OR	97062	(503) 612-8400
+00-5203004	Haggen Oregon City	19701 Hwy 213			Oregon City	OR	97045	(503) 451-7900
+00-2101845	Jazzy Bagels	5 East Powell Blvd.			Gresham	OR	97030	(503) 665-9191
+00-2101774	Lamb's Garden Home Thriftway	7410 SW Oleson Road			Portland	OR	97223	(503) 244-9061
+00-2101775	Lamb's Wilsonville Thriftway	8255 SW Wilsonville Rd			Wilsonville	OR	97070	(503) 682-9053
+00-2101994	Lamb's Palisades Market	1377 SW McVey			Lake Oswego	OR	97034	(503) 636-5417
+00-5204001	Made In Oregon Clackamas Town Center	12000 SE 82nd Ave			Portland	OR	97086	(503) 659-3155
+00-5204004	Made In Oregon Lloyd Center	1017 Lloyd Center			Portland	OR	97232	(503) 282-7636
+00-5204005	Made In Oregon Newport	342 SW Bay Blvd Suite			Newport	OR	97365	(541) 574-9020
+00-5204006	Made In Oregon Main Terminal	7000 NE Airport Way			Portland	OR	97218	(503) 282-7827
+00-5204007	Made In Oregon Concourse C	7000 NE Airport Way			Portland	OR	97218	(503) 335-6563
+21-5204012	Made In Oregon Concourse D	7000 NE Airport Way			Portland	OR	97218	(503) 493-5970
+00-5204008	Made in Oregon Pioneer Place	700 SW Fifth Avenue, Suite 1053			Portland	OR	97204	(503) 241-3630
+00-5204009	Made in Oregon Salem Center	480 Center St. #242			Salem 	OR	97301	(503) 362-4106
+00-5204011	Made in Oregon Washington Square	9589 SW Washington Sq. Rd			Tigard	OR	97223	(503) 620-4670
+00-5205006	Market of Choice Eugene - Willakenzie	2580 Willakenzie			Eugene	OR	97401	(541) 345-3349
+00-5205003	Market of Choice Eugene - Franklin	1960 Franklin Blvd			Eugene	OR	97403	(541) 687-1188
+00-5205002	Market of Choice - Ashland	1475 Siskiyou Blvd			Ashland	OR	97520	(541) 488-2773
+00-5205004	Market of Choice - SW Portland	8502 SW Terwilleger			Portland	OR	97219	(503) 892-7331
+00-5205001	Market of Choice - West Linn	5639 Hood Street			West Linn	OR	97068	(503) 594-2901
+00-5205007	Market of Choice Eugene - Delta Oaks	1060 Green Acres Road			Eugene	OR	97408	(541) 344-1901
+00-5205005	Market of Choice Eugene - Willamette	67 West 29th Ave			Eugene	OR	97405	(541) 338-8455
+00-2101872	McCann's Pharmacy	15685 SW 116th Ave			Portland	OR	97224	(503) 639-7377
+00-2101135	McMenamins-Edgefield	2126 SW Halsey			Troutdale	OR	97060	(503) 492-5422
+00-2101887	Multnomah Athletic Club	1849 SW Salmon St			Portland	OR	97205	(503) 223-6251
+00-5207001	New Seasons Market - Arbor Lodge	6400 N. Interstate Avenue			Portland	OR	97217	(503) 467-4777
+00-5207002	New Seasons Market - Concordia	5320 NE 33rd Avenue			Portland	OR	97211	(503) 288-3838
+00-5207003	New Seasons Market - Happy Valley	15861 SE HappyValleyTownCtr Dr			Happy Valley	OR	97086	(503) 558-9214
+00-5207004	New Seasons Market - Mountain Park	3 SW Monroe Parkway			Lake Oswego	OR	97035	(503) 496-1155
+00-5207005	New Seasons Market - Orenco	1453 NE 61st Avenue			Hillsboro	OR	97124	(503) 648-6968
+00-5207006	New Seasons Market - Raleigh Hills	7300 SW Beaverton HillsdaleHwy			Portland	OR	97225	(503) 292-6838
+00-5207007	New Seasons Market - Sellwood	1214 SE Tacoma Street			Portland	OR	97202	(503) 230-4949
+00-5207008	New Seasons Market - 7 Corners	1954 SE Division Street			Portland	OR	97202	(503) 445-2888
+00-5207009	New Seasons Market- Cedar Hills Crossing	3495 SW Cedar Hills			Beaverton	OR	97005	(503) 641-4181
+00-2100412	Newport Avenue Market	1121 Newport Avenue			Bend	OR	97701	(541) 382-3940
+00-2102053	Providenc Medical Center Greens Deli	4805 NE Glisan St			Portland	OR	97213	(503) 215-6452
+00-2102056	Providence Medical Center Tower Café	4805 NE Glisan St			Portland	OR	97213	(503) 215-5389
+00-2102054	Providence St. Vincents Café West	9205 SW Barnes Road	Attn: Nutrition Svcs, Suite 22		Portland	OR	97225	(503) 216-4131
+00-3200031	The Chocolate Box - Silverton	202 N. Water Street			Silverton	OR	97381	(503) 873-3225
+00-2102330	Troutdale General Store	289 E. Hist. Columbia Hwy.			Troutdale	OR	97060	(503) 492-7912
+00-3200011	Tudor Guild	15 South Pioneer Street			Ashland	OR	97520	(541) 482-0940
+00-0030355	Umpqua Sweets & Treats	1157 NE Stephens St	Suite 3		Roseburg	OR	97470	(541) 957-5580
+00-5206001	Whole Foods Market - Bend	2610 NE Hwy 20			Bend	OR	97701	(541) 389-0151
+00-5206002	Whole Foods Market - Bridgeport	7380 S.W. Bridgeport Road			Tigard	OR	97224	(503) 639-6500
+00-5206003	Whole Foods Market - Fremont	3535 NE 15th Ave			Portland	OR	97212	(503) 288-3414?
+00-5206005	Whole Foods Market - Laurelhurst	2825 E. Burnside St			Portland	OR	97214	(503) 232-6601?
+00-5206006	Whole Foods Market - Portland	1210 NW Couch Street			Portland	OR	97209	(503) 525-4343
+00-5210003	Zupan's Belmont	3301 SE Belmont			Portland	OR	97214	(503) 239-3720
+00-5210002	Zupan's Burnside	2340 W. Burnside			Portland	OR	97210	(503) 497-1088
+00-5210001	Zupan's Macadam	7221 SW Macadam			Portland	OR	97219	(503) 244-5666
+00-2101408	Anna's Chocolate Cafe (De Bon)	900 SW 5th Avenue			Portland	OR	97204	(503) 227-5187
+00-2100344	Aloha Bales Thriftway 	17675 SW Farmington Road			Aloha	OR	97007	(503) 649-8597
+00-2100183	Cedar Mill Bales Thriftway	12675 NW Cornell Rd.			Portland	OR	97229	(503) 646-9635
+00-2100918	Bellagora	1466 NE 15th Ave			Canby	OR	97013	(503) 266-6055
+00-2101165	Broadway Floral	1638 NE Broadway			Portland	OR	97232	(503) 288-5537
+00-2100872	Fisher's Flowers & Fine Art	638 W Harrison Street			Roseburg	OR	97471	(541) 672-6621
+00-2100015	Gaston Market	222 Front Street			Gaston	OR	97119	(503) 985-7038
+00-2100769	Isabellas Garden	1490 Grand Ridge Drive NW			Albany	OR	97321	(541) 928-0121
+00-2102217	Stroheckers	2855 SW Patton Rd			Portland	OR	97201	(503) 223-7391
+00-2100835	The Arrangement	4210 NE Fremont			Portland	OR	97213	(503) 287-4440
+00-2100043	Wine and Romance	7755 Hwy 101 North			Gleneden Beach	OR	97388	(541) 764-0238
+00-2100914	Bon Appetit	3203 SE Woodstock Blvd	Reed College		Portland	OR	97202	(503) 777-7370
+00-5515003	Pharmaca Burnside	13 NW 23rd Pl			Portland	OR	97210	(503) 226-6213
+00-5816006	Dylans Candy Bar - Reading	1800 North 12th St			Reading	PA	19406	(610) 921-5890
+00-2101890	Moravian Book Shop	428 Main Street			Bethlehem	PA	18018	(610) 866-5481
+00-2100871	New Oxford Coffee Co.	16 Center Square			New Oxford	PA	17350	(717) 624-4047
+00-2101290	The Chocolate Moose	5523 Walnut Street			Pittsburgh	PA	15232	(412) 688-8800
+00-5806023	Whole Foods Market - Charleston	923 Houston Northcutt Blvd			Mount Pleasant	SC	29464	(843) 971-7240
+00-5806022	Whole Foods Market - Woodruff	1140 Woodruff Road			Greenville	SC	29607	(864) 335-2300
+00-2100795	Simply Savory	2901 C Devine Street			Columbia	SC	29205	(803) 256-1141
+00-5806007	Whole Foods Market - Green Hills	4021 Hillsboro Pike			Nashville	TN	37215	(615) 440-5100?
+00-5816003	Dylans Candy Bar - Houston	5085 Westhelmer Rd			Houston	TX	77056	(713) 621-5551
+00-2100881	The Grape and Bean	1909 E Wasthington			Stephenville	TX	76401	(254) 968-5222
+00-2100746	Chocolate Apothecary - TX	1401 Shoal Creek	Ste 150		Lewisville	TX	75077	(972) 317-3330
+00-2100518	EatZi's Market and Bakery	3403 Oaklawn Ave.			Dallas	TX	75219	(214) 526-1515
+00-2100245	Caffe Ibis	52 Federal Avenue			Logan	UT	84321	(435) 753-9515
+00-2100630	Tabula Rasa	552 South 602 East	Trolley Square Space D124		Salt Lake City	UT	84102	(801) 575-5043
+00-2100711	Montano's Int'l Gourmet	3733 Franklin Road			Roanoke	VA	24014	(540) 344-8960
+00-2102333	Trousseau Ltd.	306 Maple Avenue West			Vienna	VA	22180	(703) 255-3300
+00-2100425	Chocolate Paper	308-3 Market St			Roanoke	VA	24011	(540) 989-7025
+00-2100545	The Courtyard Quail	174 Riverside Ave			Winthrop	WA	98862	(509) 996-3811
+00-2100551	Duchessa	920 E 72nd Ave			Federal Way	WA	98003	(907) 561-8115
+00-5203006	Haggen Barkley Village	2900 Woburn			Bellingham	WA	98226	(360) 676-5300
+00-5203007	Top Food & Drug	1301 Avenue D			Snohomish	WA	98290	(360) 568-1395
+00-2100529	JZ Rose - Yelm	207 1st Street South			Yelm	WA	98597	(360) 458-4618
+00-2100070	Luepke Florist	1300 Washington Street			Vancouver	WA	98660	(360) 693-3647
+00-5214002	Central Market At Mill Creek	15605 Main Street			Mill Creek	WA	98012	(425) 357-3240
+00-2101985	Party Carousel	3024 Issaquah Pine Lake Rd			Sammamish	WA	98075	(425) 391-9199
+00-5214001	Poulsbo Central Market	20148 10th Ave NE			Poulsbo	WA	98370	(360) 779-1881
+00-5214003	Shoreline Central Market	15505 Westminister Way North			Seattle	WA	98133	(206) 363-9226
+00-2100773	Top Foods #29 - Olympia	1313 Cooper Point Road NW			Olympia	WA	98502	(360) 754-1428
+00-5214004	Town and Country Market	343 E. Winslow Way			Bainbridge Island	WA	98110	(206) 842-3848 
+00-5206007	Whole Foods Market - Bellevue	888 116th Ave NE			Bellevue	WA	98004	(425) 462-1400
+00-5206013	Whole Foods Market - Interbay	2001 15th Ave			Seattle	WA	98119	
+00-5206008	Whole Foods Market - Mill Plain	815 SE 160th Ave			Vancouver	WA	98683	(360) 253-4082
+00-5206010	Whole Foods Market - Roosevelt Square	1026 NE 64th Street			Seattle	WA	98115	(206) 985-1500
+00-5206011	Whole Foods Market - Westlake	2210 Westlake Avenue			Seattle	WA	98121	(206) 621-9700
+00-2100836	Artisans Jewlry & Gallery	137 East Jewett Blvd			White Salmon	WA	98672	(509) 493-1333
+00-2101054	Bahma Coffee Bar	77 SW Russell Ave			Stevenson	WA	98648	(509) 427-8700
+00-2100780	Boehm's Chocolates & Flowers	808 W. Main Ave	Suite 241		Spokane	WA	99201	(509) 456-8466
+00-2100339	Chocolate Apothecary	621 West Mallon Ave			Spokane	WA	99201	(509) 324-2424
+00-2100593	Chocolate Box	108 Pine Street			Seattle	WA	98101	(888) 861-6188
+00-2101350	The Confectionery	4608 26th Avenue NE			Seattle	WA	98105	(206) 523-1443
+00-5515006	Pharmaca Madison	4130 E Madison			Seattle	WA	98112	(206) 324-0701
+00-5515016	Pharmaca Wallingford 	1815 N. 45th St.			Seattle	WA	98103	(206) 547-1208
+00-5515023	Pharmaca West Seattle 	4707 California Ave SW			Seattle	WA	98116	(206) 932-4225
+00-5515025	Pharmaca Redmond 	15840 Redmond Way			Redmond	WA	98052	(425) 882-1475
+00-2100348	Sweets on 3rd	615 N. 3rd Street			Wausau	WI	54403	(715) 842-7171
+00-2100917	Sweettrio	1225 Washington Ave			Grafton	WI	53024	(262) 375-8746
+00-2100452	Allo! Chocolat	234 W. Main Street	Suite 1		Waukesha	WI	53186	(262) 544-8030
+00-2101015	Amy's Candy Kitchen	W62 N 579 Washington Avenue			Cedarburg	WI	53012	(800) 513-8889
+00-2111015	Apples of Eden	5612 Broad Street			Greendale	WI	53129	(414) 421-7011
+00-2100557	Sugar Doll	1336 Strongs Avenue			Stevens Point	WI	54481	(715) 341-5556
+00-2100678	Hibiscus Gifts & Collectibles	2204 NW 164th Street			Edmond	OK	73013	(405) 513-8595
+00-3200095	Dita’s Chocolates	38915 Proctor Boulevard			Sandy	OR	97055	(503) 688-1050
+66-C10	Moonstruck Chocolate Company - Factory Store	6600 N. Baltimore Ave			Portland	OR	97203	(503) 247-3448
+00-3200126	Cocoamatrice Artisan Chocolates	6345 Skyway			Paradise	CA	95969	(530) 872-2922 
+00-3200090	Mary’s Kitchen Port	539 West Front Street			Traverse City	MI	49684	(231) 941-0525 
+00-3200189	Latte Lounge	196 Main Street			Oneonta	NY	13820	
+00-2100883	Truffles	157 B Spring Street			Newton	NJ	07860	(973) 383-3344
+00-3200098	A La Cart Market & Café	3960 Mary Eliza Trace NW	Suite 600		Atlanta	GA	30064	(678) 354-5221
+00-2100551	Grand Duchess	400 W. International Airport Rd.			Anchorage	AK		(907) 561-8115 
+00-3200031	The Chocolate Box	202 N. Water Street			Silverton	OR	97381	(503) 873-3225
+00-3200193	Gresham Professional Pharmacy	24076 SE Stark Street	Suite 100		Gresham	OR	97030	(503) 491-0117
+00-3200071	Stayton Pharmacy	102 Martin Drive 	Suite A		Stayton	OR	97383	(503) 769-2616
+00-3200199	Mike’s Medical Pharmacy	201 Villa Road			Newberg	OR	97132	(503) 538-5715
+00-3200497	Up N Away Balloons	1510 Coyote Hills Ln			Richmond	TX	77406	(281) 239-7352
+00-3200528	The Blossom Shop	2218 Bardstown Rd			Louisville	KY	40205	(502) 454-0421
+00-3200510	Shirley Floral	440 W Beauregard			San Angelo	TX	76903	(325) 655-9111
+00-3200503	KaDee Kay LLC	552 Valley Stream Dr			Charlotte	NC	28205	(407) 595-2006
+00-3200518	Sarah Jane’s	1350 Market Street			Tallahassee	FL	32312	(850) 329-6083
+00-3200388	Sweet Cece’s Frozen Yogurt	4322 Harding Pike	Suite 103		Nashville	TN	37205	(707) 292-1126
+00-3200491	The Candy Basket 	8001 Wyoming Blvd NE 	Suite C-5		Albuquerque	NM	87113	(505) 821-1455
+00-2100367	Sweet Nothings	26 Beechwood Road			Summit	NJ	07901	(908) 522-0888
+00-3200563	Rankos’ Stadium Pharmacy	101 N Tacoma Ave			Tacoma	WA	98403	(253) 383-2411
+00-2100933	Stella’s Find Chocolates	176 Rte 101			Bedford	NH	03110	(603) 472-3131
+00-2100329	Le BonBon 	2050 Mountain Blvd			Oakland	CA	94611	(510) 339-2962
+00-2100601	California Cove Designs 	101 Avenida Del Mar			San Clemente 	CA	92672	(714) 615-8263
+00-2100601a	California Cove Gourmet	155 Avenida Del Mar			San Clemente 	CA	92672	(714) 615-8263
+00-2100766	Daybreak Coffee Roasters	2377 Main Street			Glastonbury	CT	06033	(860) 657-4466
+00-3200130	Bella Vita 	26291 HWY 74			Kittredge	CO	80457	(303) 674-1151
+00-2100252	The Chocolate Bar	17312-A Ventura Blvd			Encino	CA	91316	(818) 784-7714
+00-3200171	Gilded Carriage	95 Tinker St			Woodstock	NY	12498	(845) 679-2607
+00-3200671	Carriage Trade Cheese Shoppe	32a South Main Street			Medford	NY	08055	(609) 654-0400
+00-2100735	Legacy Salmon Creek Gift Shop	2211 NE 139th Street			Vancouver	WA	98686	(360) 487-2280
+00-3200685	The Scarlet Rooster	116 N Main Street			Warrenton	NC	27589	(252) 257-1993
+00-3200680	New Moon Spa	75 Prospect			Eureka Springs	AR	72632	(800) 549-0222
+00-2100621	Pure Chocolate	102 Franklin St			Quincy	MA	02169	(617) 328-6248
+00-3200763	Miss M’s Sweets	5405 Village Dr NW			Concord	NC	28027	(704) 723-6500
+00-3200761	Garden Gate Florist	260 Route 171 			South Woodstock	CT	06267	(860) 928-0571
+00-3200690	Pink Palace	3050 Central Ave			Memphis	TN	38111	(901) 320-6392
+00-3200789	Sam Noble Oklahoma Museum of Natural History  	2401 Chautauqua Ave			Norma	OK	73072	(405) 325-1329
+00-2100870	Gourmet Café	2415 San Diego Avenue	Suite 103		San Diego	CA	92110	(619) 546-7960
+00-3200843	Le Chocoholique	601 North High Street			Columbus	OH	43215	(614) 223-4009
+00-2102426	Yamhill's Gallery & Gifts 	901 N Brutscher	Suite F		Newberg	OR	97132	(503) 538-1311
+00-2101654	Gifford's Flowers	1224 SW Broadway			Portland	OR	97201	(503) 222-9193
+00-2101654B	Gifford's Flowers	200 SW Market			Portland	OR	97201	(503) 222-5029
+00-3200908	Sweet Delights	1500 SE East Devil’s Lake Road	Suite 300		Lincoln City	OR	97367	(541) 992-4511
+00-2101946	Stone Buddha	216 East Main Street			Silverton	OR	97381	(503) 873-0682
+41-2111113	Bellissima	288 Martin Street			Blaine	WA	98230	(541) 661-0071
+41-3200078	Barterra Winery	643 Main St			Half Moon Bay	CA	94019	(650) 712-1635
+41-2102299	Village Treasures 	2720 Mowry  Ave			Fremont	CA	94538	(510) 794-2800
+41-2100009	Incidentals	403 NW Despain Avenue			Pendleton	OR	97801	(541) 996-4461
+41-2111056	The Meadow - Portland	3731 N. Mississippi Avenue			Portland	OR	97227	(503) 288-4633
+41-2111060	The Meadow - New York	523 Hudson Street			New York	NY	10014	(212) 645-4633
+41-3200712	Chilkat Cove 	2 Marine Way			Juneau	AK	99821	(907) 586-2525
+41-3201044	Candy Bouquet 	1339 Commerce Ave. Ste 112 			Longview	WA	98632	(360) 414-0778
+41-5817022	Sweet Spot	2228 Old Brick Rd			Glen Allen 	VA	23060	(804) 360-7768
+20-000001	Westlake Gifts	14535 Westlake Dr # C			Lake Oswego	OR	97035	(503) 684-2535
+41-2111067	Cannon Beach Chocolate Café	232 N Spruce St.			Cannon Beach	OR	97110	(503) 436-8772
+41-2111160	Main St. Stamp & Stationery	12245 SW Main Street			Tigard	OR	97223	(503) 639-3180
+41-2111126	Miss Sweets 	4 Russell Rd			Westfield	MA	01085	(413) 568-0518
+41-2111153	Manzanita Sweets 	310 Laneda Ave.			Manzanita	OR	97130	(503) 368-3792
+41-2111116	Black Bird Coffee & Tea 	22578 SW Washington St.			Sherwood	OR	97140	(503) 925-9353
+FM001	Fred Meyer-Burlingame	7555 SW Barbur Blvd 			Portland	OR	97219	(503) 452-3000
+FM002	Fred Meyer-Hawthorne	3805 SE Hawthorne Blvd			Portland	OR	97214	(503) 872-3300
+FM003	Fred Meyer-Hollywood	3030 NE Weidler St			Portland	OR	97232	(503) 280-1300
+FM004	Fred Meyer-Johnson Creek	8955 SE 82nd Ave 			Portland	OR	97086	(503) 788-2000
+FM005	Fred Meyer-Raleigh Hills	7700 SW Beaverton Hillsdale Hwy			Portland	OR	97225	(503) 292-0731
+FM006	Fred Meyer-Stadium	100 NW 20th Pl			Portland	OR	97209	(503) 273-2004
+FM007	Fred Meyer-Sunset	22075 NW Imbrie Dr			Hillsboro	OR	97124	(503) 747-1100
+FM008	Fred Meyer-Tualatin	19200 SW Martinazzi Ave			Tualatin	OR	97062	(503) 691-4200
+FM009	Fred Meyer-Wilsonville	30300 SW Boones Ferry Road			Wilsonville	OR	97070	(503) 570-3500
+Macy215	Macy's State Street	111 North State Street			Chicago	IL	60602	(312) 781-3964
+Macy217	Macy's Oakbrook	1 Oak Brook Center			Oak Brook 	IL	60523	(630) 684-2578
+Macy218	Macy's Old Orchard	1 Old Orchard Shopping Center			Skokie	IL	60077	(847) 329-2580
+Macy219	Macy's Water Tower Place	835 North Michigan Ave			Chicago	IL	60611	(312) 335-7858
+Macy230	Macy's Minneapolis	700 On The Mall			Minneapolis	MN	55402	(612) 375-6170
+Macy231	Macy's Southdale	100 Southdale Center			Edina	MN	55435	(952) 924-4411
+Macy233	Macy's Rosedale	900 Rosedale Center			Roseville	MN	55113	(651) 639-6722
+Macy260	Macy's Mayfair	25000 N. Mayfair Road			Wauwatosa	WI	53226	(414) 471-3580
+Macy301	Macy's Somerset	2750 West Big Beaver Road			Troy	MI	48084	(248) 816-4915
+Macy302	Macy's Twelve Oaks Mall	27550 Novi Road			Novi	MI	48377	(248) 344-6989
+Macy303	Macy's Oakland	500 W 14 Mile Road			Troy	MI	48083	(248) 597-2135
+41-3202719	Jansen Flowers & Gifts	1052 Washington Way			Longview	WA	98632	(360) 423-0450
+41-3202510	Doppio Coffee & Lounge	310 Oak Street	Suite 101		Hood River	OR	97031	(541) 386-3000
+GEMD6515	Giant Eagle Market District - Kingsdale	3061 Kingsdale Center			Columbus	OH	43221	(614) 538-0762
+GEMD47	Giant Eagle Market District - Robinson	100 Settlers Ridge Center Dr			Pittsburgh	PA	15205	(412) 788-5392
+GEMD40	Giant Eagle Market District - Shadyside	5550 Centre Avenue			Pittsburgh	PA	15232	(412) 681-1500
+GEMD14	Giant Eagle Market District - South Hills	South Hills Village Square	7000 Oxford Drive		Pittsburgh	PA	15102	(412) 831-1480
+GEMD43	Giant Eagle Market District - Twp. of Pine	Village at Pine Shopping Center	155 Towne Centre Drive		Wexford	PA	15090	(724) 934-0155
+21-3202714	Evans Towne Market	4460 Washington Road	Suite # 14		Evans	GA	30809	(706) 303-8591
+SL01	Snow Leopard	4240 Old Seward Hwy			Anchorage	AK	99503	(907) 770-7768
+PT01	Primrose & Tumbleweed 	248 E Main St.			Hillsboro	OR	97123	(503) 703-8525
+MA01	Madrona Hills Ace Hardware	706 Madrona Av SE			Salem 	OR	97302	(503) 763-6323
+SS01	Stieber's Sweet Shoppe	1198 Roseville Pkwy #135			Roseville	CA	95678	(916) 784-7777

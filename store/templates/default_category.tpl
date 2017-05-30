@@ -38,17 +38,20 @@
 {include file="category_filter.tpl"}
 
 {if $products.data|@count}
-    <div class="clearfix">
-        <ul class="display grid pad_tp20 pdd_rt0 pdd_lt0 col-lg-12 col-sm-12 col-md-12 col-xs-12">
-            {foreach from=$products.data item=product}
-                {cycle values="col1,col2,col3,col4" assign=pos name=pos}
-                <li class="{$pos} iefix col-lg-4 col-md-4 col-xs-6 mar_btm">{include file="display_category_product.tpl" product=$product}</li>
-                {/foreach}
-        </ul>
-    </div>
-
-    <div id="prev-next2">{include file="prevnextmenu.tpl"}</div>
-
+  <div class="clearfix">
+    <ul class="display grid row pad_tp20 pdd_rt0 pdd_lt0">
+      {foreach from=$products.data key=index item=product}
+        <li class="iefix col-lg-4 col-xs-6 mar_btm">{include file="display_category_product.tpl" product=$product}</li>
+        {if $index % 3 == 2}
+          <div class="clearfix visible-lg-block"></div>
+        {/if}
+        {if $index % 2 == 1}
+          <div class="clearfix visible-xs-block"></div>
+        {/if}
+      {/foreach}
+    </ul>
+  </div>
+  <div id="prev-next2">{include file="prevnextmenu.tpl"}</div>
 {/if}
 </section>
 {include file="sub_cat_list.tpl"}

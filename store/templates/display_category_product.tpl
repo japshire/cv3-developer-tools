@@ -85,7 +85,7 @@
             </div>
         {else}
             <div class='image iefix'>
-                <a href="{$smarty.capture.product_url}" title="{$name}"><img src="{if $view == 'product'}{$image|img_prefix}{else}{$thumb_image|img_prefix}{/if}" alt="{$name}" title="{$name}" id='product_image-{$pid}' class='product_image' /></a>
+                <a href="{$smarty.capture.product_url}" title="{$name}"><img src="{$image|img_prefix}{*$thumb_image|img_prefix*}" alt="{$name}" title="{$name}" id='product_image-{$pid}' class='product_image' /></a>
             </div>
 
             <div class='info iefix'>
@@ -95,8 +95,9 @@
                             {else}
                         <h2>{$product.prod_name}</h2>
                     {/if}
-                    <div class="rev-stars">{include file="product_review.tpl"}</div>
-                {if $backorder}<div class='backordered'>*Backordered: {$product.backordered_date}</div>{/if}
+                    {*<div class="rev-stars">{include file="product_review.tpl"}</div>*}
+                    {if $product.desc_header != ''}<div class="short-desc">{$product.desc_header}</div>{/if}
+                    {*if $backorder}<div class='backordered'>*Backordered: {$product.backordered_date}</div>{/if*}
             </div>
 
             <div class="order">
@@ -150,14 +151,14 @@
                                         <input type="submit" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style1 addtocart_button" value="Add to Cart" onclick="javascript: return checkMinQty('qty_{$prod_id}',{$product.min_qty}, '');" />
                                     {/if}
                                 {else}
-                                    <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="BUY NOW" onclick="window.location.href = '{$smarty.capture.product_url}';" />
+                                    <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="Add to Cart" onclick="window.location.href = '{$smarty.capture.product_url}';" />
                                 {/if}
                             </form>
                         {else}
-                            <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="BUY NOW" onclick="window.location.href = '{$smarty.capture.product_url}';" />
+                            <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="Add to Cart" onclick="window.location.href = '{$smarty.capture.product_url}';" />
                         {/if}
                     {else}
-                        <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="BUY NOW" onclick="window.location.href = '{$smarty.capture.product_url}';" />
+                        <input type="button" name="addtocart_submit" class="btn btn-primary text-uppercase button medium style2" value="Add to Cart" onclick="window.location.href = '{$smarty.capture.product_url}';" />
                     {/if}
 
                 </div>

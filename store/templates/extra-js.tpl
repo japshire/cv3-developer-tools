@@ -180,7 +180,7 @@
         </script>
     {/literal}
 
-{if $view == category || $view == 'prod_detail_list'}
+{*if $view == category || $view == 'prod_detail_list'}
 <!-- GRID/LIST TOGGLE SCRIPT -->
 <script type="text/javascript">
 var delete_cookie = function(name) {ldelim}
@@ -243,7 +243,7 @@ var toggleGrid = (function() {ldelim}
     else
         $("#listImg").attr('src' , "{$img_prefix}/images/list_on.png");
 </script>
-{/if}
+{/if*}
 
 {if $view == 'catalog_request' || $view == 'contact' || $view == 'member_address' || $view == 'member_wishlist'}
     <script type='text/javascript'>

@@ -331,13 +331,13 @@ ul.display, #new_products ul, #featured_products ul, #featured_categories ul, #s
 .cat-thumbs li { }
 .cat-thumbs li .info { }
 
-#category .product .image img, #prod_detail_list .product .image img {width:100%;max-width:150px;max-height:150px;}
+#category .product .image img, #prod_detail_list .product .image img {width:100%;}
 
 .grid li .image, .grid li .info, .grid li .content, .grid li .order { text-align: center; }
 .grid li .sku, .grid li p, .grid li .price, .grid li .rev-stars, .grid li .qanda { margin: 0 0 10px; }
 .grid li .qty-label, .grid li div.child, .grid li div.status, .grid li input.qty { display: none; }
 
-#category ul.display li, #prod_detail_list ul.display li  { height: 300px;  overflow: hidden; }
+#category ul.display li, #prod_detail_list ul.display li  { overflow: hidden; }
 #category ul.display.list li, #prod_detail_list ul.display.list li { height: 165px; border-bottom: 1px solid #ccc;}
 
 #category #sort label, #prod_detail_list #sort label { text-transform: uppercase; }

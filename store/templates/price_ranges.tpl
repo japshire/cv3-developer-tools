@@ -1,16 +1,16 @@
 {*** CHILD PRODUCTS PRICE RANGE ***}
 {if $p.is_parent == 'y'}
- {assign var="tmpSpecial" value='1'}
+ {assign var="tmpSpecial" value="1"}
  {counter assign="childNums" name="childNums" start=0 step=1}
  {assign var="arPrices" value=""}
- {if $view == category || $view == 'prod_detail_list' || $view == product || $view == index}
-   {if $view != index}
-	{assign var='child' value=$p.children}
+ {if $view == 'category' || $view == 'product' || $view == 'index'}
+   {if $view == 'index'}
+     {assign var=child value=$p.child_prices}
    {else}
-	{assign var='child' value=$p.child_prices}
+     {assign var=child value=$p.children}
    {/if}
  {else}
-   {assign var='child' value=$p.child_prices}
+   {assign var=child value=$p.child_prices}
  {/if}
  {foreach from=$child item=child}
   {if $childNums == 0}
@@ -26,11 +26,24 @@
   {else}
    {assign var="arPrices" value="$arPrices,"|cat:$child.price|replace:"$":""}
   {/if}
-  {if $child.price > $maxPrice && $child.price != $minPrice && $minPrice != '0'}
-   {assign var="maxPrice" value=$child.price|replace:"$":""}
+  {if $child.special_price == '' || $child.special_price == "0.00" || $child.special != 'y'}
+   {assign var="tmpSpecial" value="0"}
+  {else}
+   {assign var="tmpSpecial" value="1"}
   {/if}
-  {if $child.price < $minPrice || $minPrice == '0'}
-   {assign var="minPrice" value=$child.price|replace:"$":""}
+  {if $child.standard_price > $maxPrice && $child.standard_price != $minPrice && $child.standard_price != '0'}
+   {assign var="maxPrice" value=$child.standard_price|replace:"$":""}
+  {/if}
+  {if $child.standard_price < $minPrice || $minPrice == '0'}
+   {assign var="minPrice" value=$child.standard_price|replace:"$":""}
+  {/if}
+  {if $tmpSpecial == '1'}
+    {if $child.special_price > $maxSpecial && $child.special_price != $minSpecial && $child.special_price != '0'}
+     {assign var="maxSpecial" value=$child.special_price|replace:"$":""}
+    {/if}
+    {if $child.special_price < $minSpecial || $minSpecial == '0'}
+     {assign var="minSpecial" value=$child.special_price|replace:"$":""}
+    {/if}
   {/if}
   {if $child.rewards_points > $maxPoints && $child.rewards_points != $minPoints && $minPoints != '0'}
    {assign var="maxPoints" value=$child.rewards_points}
@@ -38,27 +51,19 @@
   {if $child.rewards_points < $minPoints || $minPoints == '0'}
    {assign var="minPoints" value=$child.rewards_points}
   {/if}
-  {if $child.special_price == '' || $child.special_price == "0.00" || $child.special != 'y'}
-   {assign var="tmpSpecial" value="0"}
-  {/if}
   {counter assign="childNums" name="childNums"}
  {/foreach}
+
  {if $arPrices != ''}
   {assign var="arPrices" value=","|explode:$arPrices}
- {/if}
- 
- {if $arPrices|@count > 1}
-   {$arPrices|@sort_array:sort}
-   {assign var="minPrice" value=$arPrices.0}
-   {assign var="maxPrice" value=$arPrices|@end}
- {/if}
+ {/if} 
 
  {*** PRINTED PRICES ***}
  {if $p.rewards_program == 'y'}
    Rewards Points: {$minPoints}{if $maxPrice != '0' && $maxPrice != $minPrice}&ndash;{$maxPoints}{/if}
  {else}
-   {if $minSpecial != $minPrice || $maxSpecial != $maxPrice}
-     <del>{$currency_type}{$minPrice|commify}{if $maxPrice != '0' && $maxPrice != $minPrice}&ndash;{$currency_type}{$maxPrice|commify}{/if}</del><br />
+   {if ($minSpecial != '0' && $minSpecial != '') || ($maxSpecial != '0' && $maxSpecial != '')}
+     <del>{$currency_type}{$minPrice|commify}{if $maxPrice != '0' && $maxPrice != $minPrice}&ndash;{$currency_type}{$maxPrice|commify}{/if}</del><br>
      <span class="sale-price">{$currency_type}{$minSpecial|commify}{if $maxSpecial != '0' && $maxSpecial != $minSpecial}&ndash;{$currency_type}{$maxSpecial|commify}{/if}</span>
    {else}
      {$currency_type}{$minPrice|commify}{if $maxPrice != '0' && $maxPrice != $minPrice}&ndash;{$currency_type}{$maxPrice|commify}{/if}

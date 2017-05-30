@@ -12,10 +12,10 @@
 
 {if $products.error}<div class='error'>{$products.error}</div>{/if}
 
-{include file="catcascmenu.tpl"}
+{*include file="catcascmenu.tpl"*}
 
 {*** BE SURE TO UNCOMMENT THE JAVASCRIPT IN _BOTTOM.TPL AND _META.TPL IF USING THE GRID/LIST TOGGLE ***}
-{if $products.data|@count}
+{*if $products.data|@count}
     <div id="category_options" class="clearfix">
         <ul class="list-inline">
             <li id="prev-next">{include file="prevnextmenu.tpl"}</li>
@@ -33,14 +33,16 @@
             </li>
         </ul>
     </div>
-{/if}
+{/if*}
+
+{include file="category_filter.tpl"}
 
 {if $products.data|@count}
     <div class="clearfix">
         <ul class="display grid pad_tp20 pdd_rt0 pdd_lt0 col-lg-12 col-sm-12 col-md-12 col-xs-12">
             {foreach from=$products.data item=product}
-                {cycle values="left,center,right" assign=pos name=pos}
-                <li class="{$pos} iefix col-lg-3 col-md-4 col-xs-6 mar_btm">{include file="display_category_product.tpl" product=$product}</li>
+                {cycle values="col1,col2,col3,col4" assign=pos name=pos}
+                <li class="{$pos} iefix col-lg-4 col-md-4 col-xs-6 mar_btm">{include file="display_category_product.tpl" product=$product}</li>
                 {/foreach}
         </ul>
     </div>

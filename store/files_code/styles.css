@@ -10,8 +10,8 @@ hr { margin: 70px 0; border-color: #000; }
 
 .btn { border-radius: 0; text-transform: uppercase; font-weight: 500; }
 .btn-lg { font-size: 24px; letter-spacing: .1em; }
-.btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4; }
-.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary { color: #fff; background-color: #286090; border-color: #204d74; }
+.btn-primary { color: #fff; background-color: #00563e; border-color: none; }
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary { color: #fff; background-color: #006c4e; border-color: none; }
 
 .btn-default { color: #00563e; background-color: #fff; border-color: #00563e; }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, btn-default:hover, .open > .dropdown-toggle.btn-default { color: #00563e; background-color: #fff; border-color: #00563e; }
@@ -73,8 +73,8 @@ input.search-image { position: absolute; right: 8px; top: 7px; background: #fff;
 
 /* MAIN NAVIGATION STYLING STARTS */
 .caret-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid rgba(0, 0, 0, 0);
     border-right: 4px solid rgba(0, 0, 0, 0);
     border-bottom: 4px solid;
@@ -96,7 +96,7 @@ input.search-image { position: absolute; right: 8px; top: 7px; background: #fff;
     font-size: 24px;
     color:#fff;
     text-shadow: 2px 2px 4px rgba(0,0,0,.4);
-    border-bottom: 3px solid transparent; 
+    border-bottom: 3px solid transparent;
     margin-bottom: 10px;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -115,7 +115,7 @@ input.search-image { position: absolute; right: 8px; top: 7px; background: #fff;
     background: transparent;
     color: #fff;
     text-decoration: none;
-    border-bottom: 3px solid #fff; 
+    border-bottom: 3px solid #fff;
 }
 
 .dropdown-menu { background: rgba(255,255,255,.9); width: 690px; padding: 20px 5px 30px 30px; text-transform: uppercase; border-radius: 0; border: none; }
@@ -319,12 +319,11 @@ ul.display, #new_products ul, #featured_products ul, #featured_categories ul, #s
 #prev-next2 .pagenumber a:hover, #prev-next2 a:hover { text-decoration:none; }
 
 #category .info h2, #prod_detail_list .info h2{
-    color: #145b76;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 5px 0 10px;
-    max-height:33px;
-    overflow:hidden;
+  font-family: "Knockout 49 A", "Knockout 49 B";
+  font-size: 35px;
+  margin: 5px 0 10px;
+  text-transform: uppercase;
+  color: #000;
 }
 
 #cat .display, .cat-thumbs { }

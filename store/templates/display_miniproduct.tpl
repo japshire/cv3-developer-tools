@@ -10,7 +10,8 @@
 
 {assign var=url value='/product/'|cat:$url_name|cat:$url_split_char|cat:$cid_name}
 
-{if $p.web_image != ''}{assign var=image value=$p.web_image}
+{if $p.large_image != ''}{assign var=image value=$p.large_image}
+{elseif $p.web_image != ''}{assign var=image value=$p.web_image}
 {else}{assign var=image value='/images/nopicture_tn.jpg'}
 {/if}
 
@@ -19,7 +20,7 @@
 <div class='image'><a href="{$url}" title="{$p.prod_name}"><img src="{$image|img_prefix}" alt="{$p.prod_name}" title="{$p.prod_name}" /></a></div>
 <div class='info'>
 <div class='name'><a href="{$url}" title="{$p.prod_name}">{$p.prod_name}</a></div>
-{if $label != 'Recently Viewed'}
+{if $label != 'Recently Viewed' && $label != 'Related Items'}
 <div class='price'>
   {if ($p.has_attributes == 'y' || $p.is_parent == 'y') && $label != 'Related Products'}
     {include file="price_ranges.tpl" }

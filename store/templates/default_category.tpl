@@ -39,7 +39,7 @@
 
 {if $products.data|@count}
   <div class="clearfix">
-    <ul class="display grid row pad_tp20 pdd_rt0 pdd_lt0">
+    <ul class="display grid row">
       {foreach from=$products.data key=index item=product}
         <li class="iefix col-lg-4 col-xs-6 mar_btm">{include file="display_category_product.tpl" product=$product}</li>
         {if $index % 3 == 2}

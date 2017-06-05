@@ -131,7 +131,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" type="text/css" />
 
-        {* USED FOR LIST/GRID TOGGLE*} <script type="text/javascript" src="/cookie.js"></script>
+        {* USED FOR LIST/GRID TOGGLE - not using*}{* <script type="text/javascript" src="/cookie.js"></script>*}
         <script type="text/javascript" src="/all.js"></script>
         <script type="text/javascript" src="/aj.js"></script>
         {if $custom_form_num > 0 || $generic_form}
@@ -168,10 +168,14 @@
         {/if}
 
         {if $view != 'site_maintenance'}
-        {if $use_all_js == 'y' || $print_att == 'y'}
-        <script type="text/javascript" src="/all_js/{$view}/{$print_att}"></script>
+          {if $use_all_js == 'y' || $print_att == 'y'}
+            <script type="text/javascript" src="/all_js/{$view}/{$print_att}"></script>
+          {/if}
         {/if}
-        {/if}
+
+        {** MAGIC ZOOM **}
+        <link rel="stylesheet" href="/downloads/magiczoom/magiczoom.css" type="text/css" />
+        <script type="text/javascript" src="/downloads/magiczoom/magiczoom.js"></script>
 
         {* GOOGLE ANALYTICS ASYNCHRONOUS *}
         {include file="google_analytics_inc.tpl"}

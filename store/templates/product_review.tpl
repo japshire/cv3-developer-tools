@@ -24,17 +24,17 @@
             {include file="product_review.tpl" rating=$product.reviews.rating}
         </div>
         {if $view != 'category'}
-            <div class="review_links pull-left">
-                <div><a href="#reviews" onclick='activate_tab("section3");
-                        return true;'>Read Reviews<span>&nbsp;|&nbsp;</span></a>
-                    
-                    <a class="text-uppercase" href="/create_review/{$prod_id}/{if $var2 != ''}{$var2}{else}{$var1}{/if}">Write a Review</a></div>
+            <div class="review_links">
+                <div>
+                    <a href="#reviews" onclick='activate_tab("section3");return true;'>Read Reviews<span>&nbsp;|&nbsp;</span></a>
+                    <a href="/create_review/{$prod_id}/{if $var2 != ''}{$var2}{else}{$var1}{/if}">Write a Review</a>
+                </div>
             </div>
         {/if}
     {else}
         {if $view != 'category'}
             <div class="review_links">
-                <div><a class="text-uppercase" href="/create_review/{$prod_id}/{if $var2 != ''}{$var2}{else}{$var1}{/if}">Write a Review</a></div>
+                <div><a href="/create_review/{$prod_id}/{if $var2 != ''}{$var2}{else}{$var1}{/if}">Write a Review</a></div>
             </div>
         {/if}
     {/if}

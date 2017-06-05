@@ -124,13 +124,13 @@
                     {if $cid == 'rp' && $product.rewards_program == 'y'}
                         {if $child.rewards_points <= $member.points_available}
                             <input type="hidden" name="reward_amount" value="{$child.rewards_points}" />
-                            <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase pull-left mar_rt10 mar_btm addtocart_button" />
+                            <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase mar_btm addtocart_button" />
                         {/if}
                     {else}
-                        <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase pull-left mar_rt10 mar_btm addtocart_button" />
+                        <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase mar_btm addtocart_button" />
                     {/if}
-                {if $memberinfo.id}<div class="btn-wishlist pull-left mar_rt10 mar_btm"><input type="submit" name="wishlist_add" value="Add to Wishlist" class="btn btn-default text-uppercase" /></div>{/if}
-            {if $memberinfo.id}<div class="btn-reorder pull-left"><input type="submit" name="reorder_add" value="Easy Reorder" class="btn btn-default text-uppercase" /></div>{/if}
+                {if $memberinfo.id}<div class="btn-wishlist mar_btm"><input type="submit" name="wishlist_add" value="Add to Wishlist" class="btn btn-default text-uppercase" /></div>{/if}
+                {if $memberinfo.id}<div class="btn-reorder"><input type="submit" name="reorder_add" value="Easy Reorder" class="btn btn-default text-uppercase" /></div>{/if}
         </li>
     {/if}
 {else}
@@ -171,9 +171,9 @@
             <input type="hidden" name="reward_amount" value="1" />
         {/if}
         <input type="hidden" name="process_type" value="2" />
-        <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase pull-left mar_rt10 mar_btm addtocart_button" />
-        {if $memberinfo.id}<div class="btn-wishlist pull-left mar_rt10 mar_btm"><input type="submit" name="wishlist_add" value="Add to Wishlist" class="btn btn-default text-uppercase" /></div>{/if}
-        {if $memberinfo.id}<div class="btn-reorder pull-left"><input type="submit" name="reorder_add" value="Easy Reorder" class="btn btn-default text-uppercase" /></div>{/if}
+        <input type="submit" name="submit" value="Add to Cart" class="btn btn-primary text-uppercase mar_btm addtocart_button" />
+        {if $memberinfo.id}<div class="btn-wishlist mar_btm"><input type="submit" name="wishlist_add" value="Add to Wishlist" class="btn btn-default text-uppercase" /></div>{/if}
+        {if $memberinfo.id}<div class="btn-reorder"><input type="submit" name="reorder_add" value="Easy Reorder" class="btn btn-default text-uppercase" /></div>{/if}
 </div>
 {/if}
 

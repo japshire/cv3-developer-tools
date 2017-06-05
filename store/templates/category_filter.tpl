@@ -1,3 +1,4 @@
+<div id="category-filter-wrapper" data-spy="affix" data-offset-top="575" data-offset-bottom="200">
 {*if $category_filters|@count}
 <div id="category_filter">
  <div class="filter-narrowed-by">
@@ -10,14 +11,14 @@
 {/if*}
 
 {if $filter_options.filters|@count}
-  <div id="category_filter">
+  <div id="category_filter" class="">
     <div class="filter-list">
       <header><h2>Begin Your Tea Journey</h2></header>
       <div class="row">
       <form name="category_filter" action="">
-      {assign var="total_filters" value=$filter_options.filters|@count }
-      {assign var="cntr" value="0"}
-         {foreach from=$filter_options.filters item=filter_option key=filter_option_id}
+        {assign var="total_filters" value=$filter_options.filters|@count }
+        {assign var="cntr" value="0"}
+        {foreach from=$filter_options.filters item=filter_option key=filter_option_id}
           {assign var="cntr" value=$cntr+1 }
           <div class="form-group col-xs-12 col-sm-6 col-md-3 text-center">
             <label>{$filter_option.label}</label>
@@ -29,12 +30,11 @@
                {/foreach}
             </select>
           </div>
-         {/foreach}
-         </div>
-        </form>
-        <div class="col-xs-12 text-center">
-          <a class="btn btn-default" href="/category_filter/{$cid}/all">Reset Search</a>
-        </div>
+        {/foreach}
+      </form>
+      <div class="col-xs-12 text-center">
+        <a class="btn btn-default" href="/category_filter/{$cid}/all">Reset Search</a>
+      </div>
       </div>
     </div>
   </div>
@@ -72,3 +72,4 @@
 </section>
 {/if}
 ***}
+</div>

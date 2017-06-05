@@ -8,22 +8,21 @@
     *}
     {assign var=products value=$products|@array_values}
 
-    <section{if $label} id="{$label|replace:' ':'_'|lower}"{/if} class="clearfix">
+    <section{if $label} id="{$label|replace:' ':'_'|lower}"{/if} class="clearfix{if $label == 'Related Items'} col-xs-12{/if}">
         {if $label}
             <header>
-            {if $label != 'Recently Viewed'}<div id="cap">{/if}
-                <h2>{$label}</h2>
-            {if $label != 'Recently Viewed'}</div>{/if}
-            {if $view == 'index' && $seemore == '1'} 
-            <div id="seemore"> <a href="{$link}" > See More </a> </div>
+                {if $view == 'product'}
+                  <h3>{$label}</h3>
+                {else}
+                  <h2>{$label}</h2>
+                {/if}
+            </header>
         {/if}
-    </header>
-{/if}
 
-<ul{if $label != 'Recently Viewed'} class="pad_tp20 pdd_rt0 pdd_lt0 col-lg-12 col-sm-12 col-md-12 col-xs-12"{/if}>
+<ul class="grid{if $label != 'Recently Viewed'} pad_tp20 row{/if}">
     {section name=tmp_id loop=$products max=$max}
-        <li {if $label != 'Recently Viewed'}class="col-lg-3 col-md-4 col-sm-6 col-xs-6 mar_btm"{/if}>{include file="display_miniproduct.tpl" p=$products[$smarty.section.tmp_id.index]}</li>
-        {/section}
+        <li {if $label != 'Recently Viewed'}class="col-md-3 col-xs-6 mar_btm"{/if}>{include file="display_miniproduct.tpl" p=$products[$smarty.section.tmp_id.index]}</li>
+    {/section}
 </ul>
 </section>
 {/if}

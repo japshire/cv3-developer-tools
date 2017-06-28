@@ -64,11 +64,11 @@
         {rdelim});
             $("#fade, #image_overlay").show();
         {rdelim};
-       
+
             $("#image_overlay, #close").click(function(){ldelim}
                 $("#fade, #image_overlay").hide();
         {rdelim});
-       
+
         $(".popup-img").click(function(e){ldelim}
             var popimg = $(this).attr('data-img');
             overlayImage(popimg);
@@ -166,7 +166,7 @@
 {/if}
 
 {* MOBILE - PULL OUT MENU AND SEARCH DROP DOWN *}
-    {literal} 
+    {literal}
         <script type='text/javascript'>
             function slideSearch() {
                 if ($('#mobile-search').css('display') == 'none') {
@@ -185,7 +185,7 @@
 <script type="text/javascript">
 var delete_cookie = function(name) {ldelim}
 document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-{rdelim};  
+{rdelim};
 
 $(document).ready(function() {ldelim}
     $(function() {ldelim}
@@ -281,7 +281,7 @@ var toggleGrid = (function() {ldelim}
         {counter start=0 assign=num}
             {section name=shipscript loop=$ship_num}
             {counter}
-            
+
         $('select#s_country{$num}').change(function(){ldelim}
             if ($(this).val() == 'United States')
                 showDomestic({$num});
@@ -516,7 +516,7 @@ e.parentNode.insertBefore(n, e);
     function alignCompareButton() {ldelim}
         if (($(window).width() > 456)) {ldelim}
         $('li#compare').addClass('pull-right');
-        {rdelim} 
+        {rdelim}
         else {ldelim}
         $('li#compare').removeClass('pull-right');
         {rdelim}
@@ -540,7 +540,7 @@ e.parentNode.insertBefore(n, e);
             console.log("hide2");
           {rdelim}
      {rdelim}
-      
+
      function showFileName(fileName){ldelim}
         console.log(fileName);
         fName = fileName.replace(/\\/g, '/').replace(/.*\//, '');
@@ -553,13 +553,13 @@ e.parentNode.insertBefore(n, e);
     $('td.more_col').toggleClass('hide_col');
     $('th.more_col').toggleClass('hide_col');
     {rdelim};
- 
+
     $('document').ready(function(){ldelim}
         condHideFormDiv();
         addFormControls();
         hideDivs();
      {rdelim});
-     
+
      function addFormControls() {ldelim}
         $("#sStateField1").addClass("form-control");
         $("#sCountryField1").addClass("form-control");
@@ -576,7 +576,7 @@ e.parentNode.insertBefore(n, e);
           else {ldelim}
               $("#cond_hide1").removeClass("hidden");
           {rdelim}
-        
+
           if ($("#billing_country").attr('type') == 'hidden') {ldelim}
           $("#cond_hide2").addClass("hidden");
           {rdelim}
@@ -590,33 +590,49 @@ e.parentNode.insertBefore(n, e);
 {if $view == 'category'}
 {literal}
 <script type='text/javascript'>
-// init your element
-var $nav = $('#header-wrapper');
-// use a boolean var to check if the element is already shrinked
-var navShrinked = false;
+  // init your elements
+  var $headerWrapper = $('#header-wrapper');
+  var $headerFigure = $('#header figure');
+  var $headerPromoMsg = $('#header .promo-msg');
+  var $categoryMain = $('#category #main');
+  var $categoryFilterWrapper = $('#category-filter-wrapper');
+  var $categoryFilter = $('#category_filter');
+  var $categoryDisplayGridRow = $('#category .display.grid.row');
+  // use a boolean var to check if the element is already shrinked
+  var isMinimal = false;
 
-$(window).on('scroll', function() {
-  if ($(this).scrollTop() > 1){
-    // add class only once
-    if (!navShrinked) {
-      $nav.addClass("minimal");
-      $('#header figure').slideUp( 200 );
-      $('#header .promo-msg').slideUp( 200 ).removeClass('visible-sm visible-md visible-lg');
-      $('#category #main').css( "margin-top" , "145px" );
-      navShrinked = true;
+  var adjustMargin = function($element, height) {
+    if (height) {
+      $element.css('margin-top', height);
     }
-  }
-  else{
-    // remove class only once
-    if (navShrinked) {
-      $nav.removeClass("minimal");
-      $('#header figure').slideDown( 200 );
-      $('#header .promo-msg').slideDown( 200 ).addClass('visible-sm visible-md visible-lg');
-      $('#category #main').css( "margin-top" , "252px" );
-      navShrinked = false;
+  };
+
+  $(window).on('scroll', function() {
+    var affixHeight = $('#category-filter-wrapper.affix').outerHeight();
+    if (affixHeight != undefined) {
+      adjustMargin($categoryDisplayGridRow, affixHeight);
+    } else {
+      adjustMargin($categoryDisplayGridRow, 1);
     }
-  }
-});
+    if ($(this).scrollTop() > 1) {
+      // add class only once
+      if (!isMinimal) {
+        $headerWrapper.addClass('minimal');
+        $headerFigure.slideUp({ duration: 200, progress: function() { adjustMargin($categoryMain, $headerWrapper.height() + 5) } });
+        $headerPromoMsg.slideUp(200).removeClass('visible-sm visible-md visible-lg');
+        $categoryFilterWrapper.affix({ offset: { top: $categoryFilter.offset().top - $categoryFilter.outerHeight(true) }});
+        isMinimal = true;
+      }
+    } else {
+      // remove class only once
+      if (isMinimal) {
+        $headerWrapper.removeClass('minimal');
+        $headerFigure.slideDown({ duration: 200, progress: function() { adjustMargin($categoryMain, $headerWrapper.height() + 5) } });
+        $headerPromoMsg.slideDown(200).addClass('visible-sm visible-md visible-lg');
+        isMinimal = false;
+      }
+    }
+  });
 </script>
 {/literal}
 {/if}

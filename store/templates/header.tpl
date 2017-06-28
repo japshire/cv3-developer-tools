@@ -102,33 +102,7 @@
                             </li>
                         </ul>
                     </li>
-                    <!-- HORIZONTAL DROP DOWN BAR EXAMPLE -->
-                    <li id="tea-sachets" class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Tea Sachets</a>
-                        <ul class="dropdown-menu">
-                            {assign var=totalSubcats value=$categories.113.sub_cats|@count}
-                            {math equation="(y+1)/x" x=2 y=$totalSubcats assign=catsPerColumn format="%d"}
-                            <li>
-                                {counter assign=columnBreak start=0}
-                                {foreach from=$categories key=key item=category}
-                                    {if $category.parent == '113' && $category.inactive != 'y'}
-                                        <a href="/{$prod_display_type}/{if $category.url_name != ''}{$category.url_name}{else}{$key}{/if}" class="iefix" title="{$category.name|replace:"& ":"&amp; "}" data-category-name="{$category.name|replace:'&':'and'|replace:' ':'-'|lower}">{$category.name|replace:"& ":"&amp; "}</a>
-                                        {counter assign=columnBreak}
-                                    {/if}
-                                    {if $catsPerColumn == $columnBreak}
-                                        </li>
-                                        {counter assign=columnBreak start=0}<li>
-                                    {/if}
-                                {/foreach}
-                            </li>
-                            {assign var=totalSubcats value="0"}
-                            <li class="prod-col">
-                              <div class="image">
-                                  <img src="{$img_prefix}/images/dd_prod_img.jpg" class="img-responsive" alt="Promo Image">
-                              </div>
-                            </li>
-                        </ul>
-                    </li>
+                    <li><a href="/category/113"{if $cid == '113'} class="active"{/if}>Tea Sachets</a></li>
                     <!-- HORIZONTAL DROP DOWN BAR EXAMPLE -->
                     <li id="teaware" class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Teaware</a>
@@ -156,33 +130,7 @@
                             </li>
                         </ul>
                     </li>
-                    <!-- HORIZONTAL DROP DOWN BAR EXAMPLE -->
-                    <li id="gifts" class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Gifts</a>
-                        <ul class="dropdown-menu">
-                            {assign var=totalSubcats value=$categories.13.sub_cats|@count}
-                            {math equation="(y+1)/x" x=2 y=$totalSubcats assign=catsPerColumn format="%d"}
-                            <li>
-                                {counter assign=columnBreak start=0}
-                                {foreach from=$categories key=key item=category}
-                                    {if $category.parent == '13' && $category.inactive != 'y'}
-                                        <a href="/{$prod_display_type}/{if $category.url_name != ''}{$category.url_name}{else}{$key}{/if}" class="iefix" title="{$category.name|replace:"& ":"&amp; "}" data-category-name="{$category.name|replace:'&':'and'|replace:' ':'-'|lower}">{$category.name|replace:"& ":"&amp; "}</a>
-                                        {counter assign=columnBreak}
-                                    {/if}
-                                    {if $catsPerColumn == $columnBreak}
-                                        </li>
-                                        {counter assign=columnBreak start=0}<li>
-                                    {/if}
-                                {/foreach}
-                            </li>
-                            {assign var=totalSubcats value="0"}
-                            <li class="prod-col">
-                              <div class="image">
-                                  <img src="{$img_prefix}/images/dd_prod_img.jpg" class="img-responsive" alt="Promo Image">
-                              </div>
-                            </li>
-                        </ul>
-                    </li>
+                    <li><a href="/category/13"{if $cid == '13'} class="active"{/if}>Gifts</a></li>
                     <!-- HORIZONTAL DROP DOWN BAR EXAMPLE -->
                     <li id="learn" class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Learn</a>

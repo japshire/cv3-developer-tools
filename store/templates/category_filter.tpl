@@ -1,4 +1,4 @@
-<div id="category-filter-wrapper" data-spy="affix" data-offset-top="575" data-offset-bottom="200">
+<div id="category-filter-wrapper" class="hidden-xs">
 {*if $category_filters|@count}
 <div id="category_filter">
  <div class="filter-narrowed-by">
@@ -11,7 +11,7 @@
 {/if*}
 
 {if $filter_options.filters|@count}
-  <div id="category_filter" class="">
+  <div id="category_filter">
     <div class="filter-list">
       <header><h2>Begin Your Tea Journey</h2></header>
       <div class="row">

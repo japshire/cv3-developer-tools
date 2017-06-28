@@ -5,8 +5,7 @@
         {*if $categories.$cid.image}
             <div class="cat-img"><img src="{$categories.$cid.image}" alt="{$categories.$cid.name|replace:"& ":"&amp; "|strip_quotes|strip_tags:false}" /></div>
         {/if*}
-        <header><h1>{$categories.$cid.name|replace:"& ":"&amp; "}</h1></header>
-    {if $categories.$cid.cat_description}<div class="cat-desc">{$categories.$cid.cat_description|replace:"& ":"&amp; "}</div>{/if}
+        {*<header><h1>{$categories.$cid.name|replace:"& ":"&amp; "}</h1></header>*}
     {else}<header><h1>Search Results</h1></header>
     {/if}
 
@@ -53,6 +52,9 @@
   </div>
   <div id="prev-next2">{include file="prevnextmenu.tpl"}</div>
 {/if}
+
+{if $categories.$cid.cat_description}<div class="cat-desc">{$categories.$cid.cat_description|replace:"& ":"&amp; "}</div>{/if}
+
 </section>
 {include file="sub_cat_list.tpl"}
 {include file="related_cats.tpl"}

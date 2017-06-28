@@ -96,7 +96,7 @@
                         <h2>{$product.prod_name}</h2>
                     {/if}
                     {*<div class="rev-stars">{include file="product_review.tpl"}</div>*}
-                    {if $product.desc_header != ''}<div class="short-desc">{$product.desc_header}</div>{/if}
+                    {if $product.desc_header != ''}<div class="short-desc">{$product.cust_1}</div>{/if}
                     {*if $backorder}<div class='backordered'>*Backordered: {$product.backordered_date}</div>{/if*}
             </div>
 

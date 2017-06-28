@@ -2,17 +2,17 @@
 
 <section id="promos" class="row">
     <div class="col-sm-4">
-        <a href="/" title="Promo1"><img src="{$img_prefix}/images/promo1.jpg" class="img-responsive center-block"></a>
+        <a href="/category/whats-new-and-fresh" title="Promo1"><img src="{$img_prefix}/images/promo1.jpg" class="img-responsive center-block"></a>
         <h2>New + Seasonal</h2>
        <h3>Visit Often</h3>
     </div>
     <div class="col-sm-4">
-        <a href="/" title="Promo2"><img src="{$img_prefix}/images/promo2.jpg" class="img-responsive center-block"></a>
+        <a href="/product/teahouse-matcha-organic-japanese-green-tea-powder/matcha-tea-powder" title="Promo2"><img src="{$img_prefix}/images/promo2.jpg" class="img-responsive center-block"></a>
         <h2>Teahouse Matcha</h2>
        <h3>Umami + Vibrant</h3>
     </div>
     <div class="col-sm-4">
-        <a href="/" title="Promo3"><img src="{$img_prefix}/images/promo3.jpg" class="img-responsive center-block"></a>
+        <a href="/product/masala-chai-tea-concentrate-organic-chai-tea/chai" title="Promo3"><img src="{$img_prefix}/images/promo3.jpg" class="img-responsive center-block"></a>
         <h2>Masala Chai</h2>
        <h3>With Loose Leaf or Concentrate</h3>
     </div>

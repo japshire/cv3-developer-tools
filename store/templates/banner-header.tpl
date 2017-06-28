@@ -33,7 +33,7 @@
 {elseif $view == 'category'}
     {if $categories.$cid.image}
         <div class="cat-top">
-            <img src="{$categories.$cid.image}" alt="{$categories.$cid.name|replace:"& ":"&amp; "|strip_quotes|strip_tags:false}" class="img-responsive">
+            <img src="{$categories.$cid.image}" alt="{$categories.$cid.name|replace:"& ":"&amp; "|strip_quotes|strip_tags:false}" class="img-responsive center-block">
         </div>
     {/if}
 {else}

@@ -338,7 +338,7 @@ ul.display, ul.grid, #new_products ul, #featured_products ul, #featured_categori
 
 #category .product .image img, #prod_detail_list .product .image img {width:100%;}
 
-.grid li .image, .grid li .info, .grid li .content, .grid li .order { text-align: center; }
+.grid li .image, .grid li .info, .grid li .content, .grid li .order { text-align: center; width: 80%; margin: 0 auto; }
 .grid li .sku, .grid li p, .grid li .price, .grid li .rev-stars, .grid li .qanda { margin: 0 0 10px; }
 .grid li .price { font-weight: 500; font-size: 30px; }
 .grid li .short-desc { font-size: 17px; line-height: 24px; font-weight: 300; margin: 10px 0; }
@@ -589,4 +589,5 @@ div.errors p em, .error {
 @media only screen and (min-width:320px) and (max-width:460px) {
     #index #welcome .row h2 { font-size: 18px; line-height: 18px; margin: 30% 0 5px; }
     #index #welcome a { font-size: 15px; }
+    #category #main { margin-top: 202px; }
 }
